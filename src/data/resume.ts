@@ -28,6 +28,7 @@ export const heroStack = [
   'NestJS',
   'MongoDB',
   'Vue.js',
+  'MySQL',
   'WebSockets',
 ]
 
@@ -38,7 +39,7 @@ export interface StatItem {
 
 export const stats: StatItem[] = [
   { value: '3+', label: 'Years of experience' },
-  { value: '4', label: 'Companies & teams' },
+  { value: '3', label: 'Companies & teams' },
   { value: '10+', label: 'Production modules shipped' },
   { value: '6', label: 'Languages supported (i18n)' },
 ]
